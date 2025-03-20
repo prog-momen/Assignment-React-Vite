@@ -1,0 +1,43 @@
+.nav-custom {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  
+  .brand-text {
+    color: #1262AE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+  }
+  
+  .nav-link-custom {
+    color: #000000 !important;
+    font-weight: 500;
+    padding: 8px 16px !important;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link-custom:hover {
+    color: #0c4a8c !important;
+  }
+  
+  .icon-link {
+    color: #424242 !important;
+    padding: 8px !important;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-link:hover {
+    color: #1262AE !important;
+  }
+  
+  .profile-link {
+    padding: 4px !important;
+  }
+  
+  .profile-link img {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+  }
+  

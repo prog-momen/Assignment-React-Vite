@@ -1,0 +1,91 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 1rem;
+}
+
+section .card-body {
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section .card .text-primary {
+  color: #0D6EFD !important;
+  margin-bottom: 0.5rem;
+}
+
+section .card-text {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+section .card-text {
+  white-space: normal;
+  word-break: normal;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .container, .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .footer-text {
+    text-align: left;
+  }
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.footer-section {
+  text-align: left;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.footer-section p, .footer-section .nav-link, .footer-section h5 {
+  text-align: left;
+  font-family: 'Baloo Bhai', cursive;
+}

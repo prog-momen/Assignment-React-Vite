@@ -1,0 +1,38 @@
+.subscribe-section {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-image: url('../../assets/subscribe-section/Subscribe-section-background425.png');
+}
+
+
+
+
+@media (min-width: 768px) {
+  .subscribe-section {
+    background-image: url('../../assets/subscribe-section/Subscribe-section-background768.png');
+  }
+}
+
+@media (min-width: 1024px) {
+  .subscribe-section {
+    background-image: url('../../assets/subscribe-section/Subscribe-section-background1024.png');
+  }
+}
+
+@media (min-width: 1440px) {
+  .subscribe-section {
+    background-image: url('../../assets/subscribe-section/Subscribe-section-background1440.png');
+  }
+}
+@media (min-width: 1990px) {
+  .subscribe-section {
+    background-image: url('../../assets/subscribe-section/Subscribe-section-background1990.png');
+  }
+}
+
+@media (min-width: 2560px) {
+  .subscribe-section {
+    background-image: url('../../assets/subscribe-section/Subscribe-section-background2560.png');
+  }
+}
