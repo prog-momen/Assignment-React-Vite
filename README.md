@@ -1,5 +1,7 @@
 # FickleFlight - Travel Booking Platform
 
+[![GitHub stars](https://img.shields.io/github/stars/prog-momen/Assignment-React-Vite?style=social)](https://github.com/prog-momen/Assignment-React-Vite/stargazers)
+
 ## Overview
 FickleFlight هو موقع حجز سفر شامل يوفر واجهة مستخدم سلسة وسهلة الاستخدام للبحث عن الرحلات وحجز الفنادق. المشروع مبني باستخدام React مع Vite كأداة بناء، ويستخدم React Bootstrap للتصميم المتجاوب.
 
@@ -46,8 +48,9 @@ FickleFlight هو موقع حجز سفر شامل يوفر واجهة مستخد
 
 1. استنساخ المشروع
 ```bash
-git clone [رابط المستودع]
+git clone https://github.com/prog-momen/Assignment-React-Vite
 cd Assignment-React-Vite
+Code .
 ```
 
 2. تثبيت الاعتمادات
