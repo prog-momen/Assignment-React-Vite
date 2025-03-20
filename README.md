@@ -1,54 +1,88 @@
-# React + TypeScript + Vite
+# FickleFlight - Travel Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+FickleFlight هو موقع حجز سفر شامل يوفر واجهة مستخدم سلسة وسهلة الاستخدام للبحث عن الرحلات وحجز الفنادق. المشروع مبني باستخدام React مع Vite كأداة بناء، ويستخدم React Bootstrap للتصميم المتجاوب.
 
-Currently, two official plugins are available:
+🔗 [عرض الموقع المباشر](https://assignment-react-vite.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📹 [مشاهدة فيديو العرض التوضيحي](https://www.loom.com/share/42e1bc65bb6c406dad4202ce23eafbc4?sid=d0f31498-79b9-400f-a0e2-a459d6196d71)
 
-## Expanding the ESLint configuration
+## الميزات الرئيسية
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🛫 البحث عن الرحلات
+- واجهة بحث سهلة الاستخدام
+- خيارات للرحلات ذهاب وعودة أو ذهاب فقط
+- عرض عمليات البحث الأخيرة
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+### 🌍 استكشاف الوجهات
+- عرض الوجهات الأكثر شعبية
+- أسعار تنافسية للرحلات
+- صور جذابة للوجهات
+
+### 🏨 خيارات الإقامة
+- مجموعة متنوعة من الفنادق والإقامات
+- عرض التقييمات والمراجعات
+- معلومات تفصيلية عن كل مكان إقامة
+
+### 📱 تصميم متجاوب
+- واجهة مستخدم سلسة على جميع الأجهزة
+- تصميم عصري وجذاب
+- سهولة التنقل
+
+## التقنيات المستخدمة
+
+- **React** - إطار عمل JavaScript للواجهة الأمامية
+- **Vite** - أداة بناء حديثة وسريعة
+- **TypeScript** - لكتابة كود أكثر أماناً
+- **React Bootstrap** - مكتبة UI متكاملة
+- **Font Awesome** - لإضافة الأيقونات
+
+## متطلبات التشغيل
+
+- Node.js (الإصدار 14 أو أحدث)
+- npm أو yarn
+
+## تعليمات التثبيت والتشغيل
+
+1. استنساخ المشروع
+```bash
+git clone [رابط المستودع]
+cd Assignment-React-Vite
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. تثبيت الاعتمادات
+```bash
+npm install
+# أو
+yarn install
 ```
+
+3. تشغيل المشروع محلياً
+```bash
+npm run dev
+# أو
+yarn dev
+```
+
+4. فتح المتصفح على العنوان
+```
+http://localhost:5173
+```
+
+## المساهمة
+
+نرحب بمساهماتكم! يرجى اتباع الخطوات التالية:
+1. عمل Fork للمشروع
+2. إنشاء فرع جديد للميزة
+3. تقديم Pull Request مع وصف تفصيلي للتغييرات
+
+## الترخيص
+
+هذا المشروع مرخص تحت رخصة MIT. راجع ملف `LICENSE` للمزيد من المعلومات.
+
+## الاتصال والدعم
+
+لأي استفسارات أو دعم، يرجى التواصل عبر:
+- البريد الإلكتروني: support@fickleflight.com
+- تويتر: @FickleFlight
+- فيسبوك: /FickleFlight

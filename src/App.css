@@ -82,10 +82,8 @@ section .card-text {
 
 .footer-section {
   text-align: left;
-  font-family: 'Baloo Bhai', cursive;
 }
 
-.footer-section p, .footer-section .nav-link, .footer-section h5 {
+.footer-section p, .footer-section .nav-link {
   text-align: left;
-  font-family: 'Baloo Bhai', cursive;
 }
